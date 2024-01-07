@@ -7,13 +7,15 @@
 
 <html lang="en">
 <head>
-  <title>John Doe</title>
+  <title>Sruti Srinivasa Ragavan</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <link href='styles.css' rel='stylesheet' type='text/css'>
+  <script src="https://kit.fontawesome.com/ba5dac05c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -21,6 +23,7 @@
 <!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 	  <div class="container">
+
 		<div class="navbar-header">
 		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>
@@ -32,11 +35,14 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Projects</a></li>
-				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
+      <a class="navbar-brand" href="#">Sruti S Ragavan</a>
+		  <ul class="nav navbar-nav" style="float:right">
+				  <li><a href="#">Home</a></li>
+				  <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+				  <li><a href="publications.html">Publications</a></li> 
+				  <li><a href="SrutiSRagavan-CV-Nov2023.pdf">CV</a></li> 
+
 		  </ul>
 		</div>
 	  </div>
@@ -51,54 +57,55 @@
             <div class="col-md-8" style="height: 100vh;">
                 
                 <!-- Main Image -->
-                <img class="img-responsive" src="photo.gif" alt=""><br>
+                <img class="img-responsive" src="sruti.jpeg" alt="" height="300" width="275"><br>
                 
                 <div style="margin-top:3%; text-align:justify;">                
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing <a href="#">elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>I am an Assistant Professor in the <a href="https://www.cse.iitk.ac.in/" target="_blank">Department of Computer Science</a>, and an Adjunct in the <a href="https://www.cgs.iitk.ac.in/" target="_blank">Department of Cognitive Sciences</a> at <a href="https://iitk.ac.in/" target="_blank"> IIT Kanpur</a>, India. 
+            Before that, I was a HCI researcher in the <a href="https://www.microsoft.com/en-us/research/project/calc-intelligence/" target="_blank">Calc Intelligence group </a> at Microsoft Research in their Cambridge, UK lab.  
+
+					  <p>My research almost always has something to do with human factors and programming; that makes me a researcher in HCI and/or SE (depends who you ask, though!). 
+            I have a Ph.D. doing similar things in <a href="https://web.engr.oregonstate.edu/~burnett/" target="_blank"> Margaret Burnett's</a> lab at Oregon State University.
+            </p>
+          
+            <p>In a past life, I was a Senior Consultant and Application Developer at ThoughtWorks, a place (in)famous <a href="https://www.thoughtworks.com/en-in/insights/blog/most-difficult-it-interview-ive-ever-loved#:~:text=Thoughtworks'%20interview%20process%20has%20been,Forbes" target="_blank"> for its uncoventional, but fun hiring processes </a>.
+            </p>
 					
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					
-					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p>When I am not doing anything computer science, I am learning or teaching Sanskrit, indulging in some artistic endeavour or nerding out about one (music, painting, handicrafts and handlooms, cooking, kolam).
+            I am also associated with the <a href="https://iitk.ac.in/iks/" target="_blank"> SIKSA center for Indian Knowledge Systems (IKS) </a> at IIT Kanpur.
+          </p>
                 </div>
             </div> 
 
             <!-- Contact Info on the Sidebar -->
             <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>John Doe</b></div><br>
-                <p><b>john at doe.com</b><br>
-                <p>Random Department<br>
-                University of Randomness<br>
-                Street<br>
-                City <br>
-                Country<br>
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Sruti S Ragavan</b></div><br>
+                <p>
+                  Assistant Professor, Department of CSE<br>
+                  Adjunct Professor, Department of Cognitive Sciences<br>
+                  Indian Institute of Technology Kanpur<br>
                 </p>
-            </div>
-            
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="#">Google Scholar</a></dd> 
-              <dd><a href="#">Twitter</a></dd>
-              <dd><a href="#">LinkedIn</a></dd>
-            </div>
-            
-            
-            <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
-                <h2 id="publications">Publications</h2>
-                
-                <strong>Peer-reviewed</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
-                </ul>
-            
-                <strong>Technical Reports</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
-                </ul>
+
+                <p>
+                  <b> Research Interests:</b> 
+                  <a href="https://scholar.google.com/citations?user=yy68VwUAAAAJ&hl=en" target="_blank">
+                    <i class="fa-brands fa-google-scholar"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/sruti-s-ragavan/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <br>
+                  Human Computer Interaction<br>Software Engineering <br> Computing Education<br>
+                </p>
+
+                <p> 
+                  <b> Contact:</b><br>
+                  <i class="fa-solid fa-truck-fast"></i> KD 220 Kadim Diwan Building, IIT Kanpur 208016. <br>
+                  <i class="fa-solid fa-envelope"></i> srutis at cse dot iitk dot ac dot in<br>
+                  <i class="fa-solid fa-phone"></i> +91 (512) 259 2231 / +91 (512) 679 2231
+                </p>
+              
             </div>
 
-            
         </div>
 
 
@@ -106,8 +113,14 @@
     <!-- /.container -->
     
     <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    <!-- <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>  -->
     
+
+    <footer style="color:#b5bec9;font-size:0.8em;">
+      <i class="fa-regular fa-copyright"></i>Sruti Srinivasa Ragavan. 2024.
+      Based on: <a href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>.
+    </footer>
+
 </body>
 
 </html>
